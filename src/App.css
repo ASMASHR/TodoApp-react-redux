@@ -1,0 +1,16 @@
+.App {
+  padding: 10px;
+  background-color: #fefbe9;
+  align-items: center;
+  min-height: 100vh;
+}
+.container-App {
+  margin-top: 4%;
+  height: 80%;
+  width: 60%;
+  margin-left: 200px;
+  padding: 10px 0 10px 0;
+  background-color: #e1eedd;
+  box-shadow: 3px 3px #909491, 1em 0 1em rgb(180, 180, 174);
+  border-radius: 15px;
+}
