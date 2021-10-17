@@ -13,10 +13,7 @@ const AddTask=(props)=> {
     const id=Math.random()
     const handleSubmit =(e)=>{
         e.preventDefault();
-    //     TaskName===''?alert('the task name should\'nt be empty'): props.AddinngTask({id,TaskName,isDone})
-    //    e.target.value=' ';
-    //     setTaskName('');
-    //     console.log(TaskName)
+   
         if (TaskName==='')
             alert('the task name should\'nt be empty')
         else{

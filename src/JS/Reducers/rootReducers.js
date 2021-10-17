@@ -1,4 +1,4 @@
-import {ADD_TASK, EDIT_TASK,DELETE_TASK,FILTER_TASKS,TOGGLE_COMPLET} from '../Constants/actions-Types'
+import {ADD_TASK, EDIT_TASK,DELETE_TASK,TOGGLE_COMPLET} from '../Constants/actions-Types'
 
 const initialState={
 TasksList:[

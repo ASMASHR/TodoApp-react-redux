@@ -16,11 +16,7 @@ const ToDoList=(props) =>{
             <AddTask/>
             <div className="Todo-Container">
                 <h2>Let's do some work</h2>
-                {/* <div style={{display:"flex", flexDirection:"column", alignItems:"center" , alignContent:"space-between"}}>
-                    */}
                     {props.TasksList.map((task,i)=><Task  task={task} idx={i}></Task>)}
-        
-                {/* </div> */}
             </div>
         </div>
     )}

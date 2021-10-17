@@ -35,7 +35,7 @@ li {
   box-shadow: 3px 3px #909491, 1em 0 1em rgb(180, 180, 174);
 }
 /* Add Task component*/
-/* style={{, , }} */
+
 .addtask-div {
   display: flex;
   justify-items: center;
